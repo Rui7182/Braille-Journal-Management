@@ -1,0 +1,11 @@
+/* 可以在这里添加一些非 Tailwind 的自定义动画或复杂样式 */
+
+/* 示例：简单的淡入动画类 */
+.animate-in {
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
